@@ -10,4 +10,8 @@ class Person {
   venusAge() {
     return Math.round(this.age / .62);
   }
+
+  marsAge() {
+    return Math.round(this.age / 1.88);
+  }
 }

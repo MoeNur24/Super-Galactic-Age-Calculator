@@ -20,4 +20,8 @@ describe('GalacticAge', () => {
 test('should calculate age on Venus', () => {
     expect(galacticAge.venusAge()).toBe(64);
   });
+
+  test('should calculate age on Mars', () => {
+    expect(galacticAge.marsAge()).toBe(28);
+  });
 });

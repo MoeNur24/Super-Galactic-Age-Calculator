@@ -6,4 +6,8 @@ class Person {
     mercuryAge() {
       return Math.round(this.age / 0.24);
     }
+
+  venusAge() {
+    return Math.round(this.age / .62);
   }
+}

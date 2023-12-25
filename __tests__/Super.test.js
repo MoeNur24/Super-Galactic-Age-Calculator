@@ -1,3 +1,5 @@
+import { GalacticAge } from '../src/Super-Galactic.js';
+
 describe('GalacticAge', () => {
     let galacticAge;
 
@@ -8,7 +10,10 @@ describe('GalacticAge', () => {
     test('constructor sets age properly', () => {
         const age = 35
         const galacticAge = new GalacticAge(age);
-        expect(galacticAge.onEarth()).toBe(age);
+        expect(galacticAge.age()).toBe(age);
     });
-    
+
+    test('should calculate age on Mercury', () => {
+        expect(galacticAge.mercuryAge()).toBe(150);
+    });
 });

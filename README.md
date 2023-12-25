@@ -4,7 +4,7 @@
 
 ## Description
 
-_Brief Description of Application_
+_This program will take a user's age and return their age on Mercury, Venus, Mars and Jupiter._
 
 ## Tests
 
@@ -18,7 +18,9 @@ _Brief Description of Application_
 * _HTML_
 * _CSS_
 * _JavaScript_
-* _TDD_
+* _WebPack_
+* _Jest_
+* _npm_
 
 ## Setup/Installation Requirements
 * _Open Terminal_

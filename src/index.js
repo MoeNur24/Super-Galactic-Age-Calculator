@@ -1,1 +1,1 @@
-import {} from './Super-Galactic.js';
+import {} from './Person.js';

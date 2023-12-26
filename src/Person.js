@@ -3,6 +3,10 @@ class Person {
       this.age = age;
     }
   
+  earthAge() {
+    return this.age;
+  }
+
     mercuryAge() {
       return Math.round(this.age / 0.24);
     }

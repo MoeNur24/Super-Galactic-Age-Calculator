@@ -9,16 +9,16 @@ describe('Person', () => {
 
   test('constructor sets age properly', () => {
     const age = 35;
-    const personAgeInstance = new PersonAge(age);
-    expect(personAgeInstance.age).toBe(age); 
+    const personAgeInstance = new Person(age);
+    expect(personAgeInstance.age).toBe(age);
   });
 
   test('should calculate age on Earth', () => {
-    expect(person.earthAge()).toBe(23); 
+    expect(person.earthAge()).toBe(23);
   });
 
   test('should calculate age on Mercury', () => {
-    expect(person.mercuryAge()).toBeCloseTo(95.83, 2); 
+    expect(person.mercuryAge()).toBeCloseTo(95.83, 2);
   });
 
   test('should calculate age on Venus', () => {
@@ -26,10 +26,10 @@ describe('Person', () => {
   });
 
   test('should calculate age on Mars', () => {
-    expect(person.marsAge()).toBeCloseTo(12.43, 2); 
+    expect(person.marsAge()).toBeCloseTo(12.43, 2);
   });
 
   test('should calculate age on Jupiter', () => {
-    expect(person.jupiterAge()).toBeCloseTo(1.97, 2); 
+    expect(person.jupiterAge()).toBeCloseTo(1.97, 2);
   });
 });

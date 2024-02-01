@@ -4,17 +4,13 @@
 
 ## Description
 
-_This program will take a user's age and return their age on Mercury, Venus, Mars and Jupiter._
+_This program will take a user's age and return their age on Mercury, Venus, Mars, and Jupiter. It will also tell them how many years until their next inputted birthday and how many years have passed since their last inputted birthday._
 
-## Tests
-
-```
-//Business Logic:
-
-
-```
 
 ## Technologies Used
+* _ESlint_
+* _Babel_
+* _Node.js_
 * _HTML_
 * _CSS_
 * _JavaScript_

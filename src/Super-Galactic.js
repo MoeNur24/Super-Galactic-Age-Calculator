@@ -1,25 +1,25 @@
-class Person {
-    constructor(age) {
-      this.age = age;
-    }
-  
+export class SpaceAge{
+  constructor(age) {
+    this.age = age;
+  }
+
   earthAge() {
     return this.age;
   }
 
-    mercuryAge() {
-      return Math.round(this.age / 0.24);
-    }
+  mercuryAge() {
+    return parseFloat((this.age / .24).toFixed(2));
+  }
 
   venusAge() {
-    return Math.round(this.age / .62);
+    return parseFloat((this.age / .62).toFixed(2));
   }
 
   marsAge() {
-    return Math.round(this.age / 1.88);
+    return parseFloat((this.age / 1.88).toFixed(2));
   }
-  
+
   jupiterAge() {
-    return Math.floor(this.age / 11.86);
+    return parseFloat((this.age / 11.86).toFixed(2));
   }
 }
